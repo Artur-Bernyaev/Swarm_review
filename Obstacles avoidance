@@ -1,0 +1,8 @@
+DistanceSensor *ps[6]; ps[0] = robot->getDistanceSensor("ps0"); 
+ps[1] = robot->getDistanceSensor("ps1"); 
+ps[2] = robot->getDistanceSensor("ps2"); 
+ps[3] = robot->getDistanceSensor("ps5"); 
+ps[4] = robot->getDistanceSensor("ps6"); 
+ps[5] = robot->getDistanceSensor("ps7"); 
+for (int i = 0; i < 6; i++) { ps[i]->enable(TIME_STEP); }
+
